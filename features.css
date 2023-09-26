@@ -1,0 +1,33 @@
+.features {
+    margin-top: 4rem;
+}
+.features-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.features {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.features > p {
+    padding: 1rem 0;
+}
+.features > img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 400px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+
+}
+.features-title {
+    font-size: 2rem;
+}
+@media (min-width: 780px) {
+    .features-wrapper{
+    display: grid; 
+    gap: 1rem;
+}
+}
